@@ -1,4 +1,4 @@
-Redes Neuronales Feed-Forward (MLP): Clasificación y Regresión
+*Redes Neuronales Feed-Forward (MLP): Clasificación y Regresión*
 
 Proyecto de bonificación sobre Redes Neuronales Artificiales con el perceptrón multicapa (MLP) usando Keras / TensorFlow. Se resuelven dos problemas con datasets del UCI Machine Learning Repository:
 
