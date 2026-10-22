@@ -62,31 +62,3 @@ Estructura del repositorio
 ├── .gitignore
 ├── LICENSE
 └── README.md
-Instalación y ejecución
-bash
-# 1. Clonar el repositorio
-git clone https://github.com/<tu-usuario>/<nombre-del-repo>.git
-cd <nombre-del-repo>
-
-# 2. (Opcional) Crear un entorno virtual
-python -m venv venv
-source venv/bin/activate        # En Windows: venv\Scripts\activate
-
-# 3. Instalar dependencias
-pip install -r requirements.txt
-
-# 4. Abrir el notebook
-jupyter notebook Proyecto_Sobre_RNA_Bonificacion_ML.ipynb
-
-También se puede ejecutar en Google Colab subiendo el notebook y el archivo DB_Fetal_Cardiotocograms.txt; allí no hace falta instalar librerías.
-
-Ejecuta las celdas de arriba hacia abajo para evitar errores por variables no definidas.
-
-Limitaciones y mejoras futuras
-Normalizar las características (por ejemplo, con StandardScaler dentro de cada fold).
-Mejorar la imputación de valores perdidos (excluir los -200 del cálculo de la media y no redondear).
-Probar más arquitecturas, regularización (Dropout) y early stopping.
-Comparar con otros modelos (Random Forest, regresión lineal) como línea base.
-Referencias
-Dua, D. y Graff, C. UCI Machine Learning Repository: Cardiotocography y Air Quality.
-Documentación de Keras y TensorFlow.
